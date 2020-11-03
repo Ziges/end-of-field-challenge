@@ -38,9 +38,9 @@ body {
 
 .widget {
     /* width: calc(332px - 24px - 24px - 6px - 6px); */
-    width: calc(404px - 8px - 8px);
-    height: calc(613px - 8px - 8px);
-    margin: 8px;
+    width: calc(404px - 1px - 1px);
+    height: calc(613px - 1px - 1px);
+    margin: 1px;
     /*border: 8px solid lightgrey;*/
     background-color: #568DE9;
     padding: 24px;
@@ -48,9 +48,21 @@ body {
         /*color: black;*/
 }
 
-.widget h2 {
+header {
+    border-bottom: 1px solid lightgrey;
+    /*width:100%;*/
+    text-align: center;
+    margin: -5px -15px;
+    padding-bottom:7px;
+}
+
+
+header h2 {
     margin: 0;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 900;
+    text-align: center;
 }
+
+
 
