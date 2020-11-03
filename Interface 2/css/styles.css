@@ -64,5 +64,43 @@ header h2 {
     text-align: center;
 }
 
+.text {
+    /*margin-top:15px;*/
+    padding-top: 15px;
+    padding-bottom: 11px;
+    text-align: center;
+    font-size: 90%;
+    border-bottom: 1px solid lightgrey;
+    margin: -5px -15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 23px 1px;
+    border-collapse: collapse;
+    border-bottom: 1px solid lightgrey;
+    margin: -5px 500px 20px;
+}
+
+.tdl {
+    text-align: right;
+    font-size: 40px;
+    font-weight: bold;
+    color: #28B29A;
+    padding-right: 10px;
+}
+
+.tdr {
+    text-align: left;
+    border-left: 1px solid lightgrey;
+    font-size: 15px;
+    color: darkgrey;
+    padding-left: 10px;
+}
+
 
 
