@@ -3,7 +3,6 @@
 /*blue text color #28B299*/
 
 
-
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
@@ -22,16 +21,15 @@ body {
 }
 
 
-
 .widget {
-    /* width: calc(332px - 24px - 24px - 6px - 6px); */
-    width: calc(404px - 1px - 1px);
-    height: calc(613px - 1px - 1px);
-    margin: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 404px;
+    height: 613px;
     border: 7px solid lightgrey;
     padding: 15px;
     border-radius: 25px;
-    /*color: black;*/
+
 }
 
 header {
@@ -43,10 +41,9 @@ header {
 }
 
 
-header h2 {
+header h1 {
     margin: 0;
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -108,17 +105,24 @@ li {
     padding-bottom: 10px;
 }
 
+#first-li{
+    font-weight: bold;
+}
+/*bullet styling*/
 
-ul { list-style: none; } /* Remove default bullets */
+ul {
+    list-style: none;
+}
+/* Remove default bullets */
 
 li::before {
     content: "\2713";
-    margin-right: 10px; /* Optional tweak */
+    margin-right: 10px;
 }
 
-#firstli::before {
+#first-li::before {
     content: "\261E";
-    margin-right: 10px; /* Optional tweak */
+    margin-right: 10px;
 }
 
 .button {
@@ -131,6 +135,6 @@ li::before {
     /*text-decoration: none;*/
     display: block;
     font-size: 16px;
-    margin: 30px;
+    margin: 36px;
     cursor: pointer;
 }
