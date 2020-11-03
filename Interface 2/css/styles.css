@@ -2,9 +2,7 @@
 
 /*blue text color #28B299*/
 
-/*button color #F77D48*/
 
-/*per user color #6E6E6E*/
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -20,30 +18,18 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
-#mockup {
-    width: 404px;
-    height: 613px;
-    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.03.png?token=APAGWATRXRWHXFZXX5LGJ2C7VKC4C);
 
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    opacity: 0.5;
-    z-index: 10;
-    pointer-events: none;
-}
 
 .widget {
     /* width: calc(332px - 24px - 24px - 6px - 6px); */
     width: calc(404px - 1px - 1px);
     height: calc(613px - 1px - 1px);
     margin: 1px;
-    /*border: 8px solid lightgrey;*/
-    background-color: #568DE9;
-    padding: 24px;
+    border: 7px solid lightgrey;
+    padding: 15px;
     border-radius: 25px;
     /*color: black;*/
 }
@@ -96,7 +82,7 @@ td {
     text-align: right;
     font-size: 40px;
     font-weight: bold;
-    color: #28B29A;
+    color: #28B299;
     padding-right: 10px;
 }
 
@@ -104,7 +90,7 @@ td {
     text-align: left;
     border-left: 1px solid lightgrey;
     font-size: 15px;
-    color: darkgrey;
+    color: #6E6E6E;
     padding-left: 10px;
 }
 
@@ -135,3 +121,16 @@ li::before {
     margin-right: 10px; /* Optional tweak */
 }
 
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #F77D48;
+    padding: 15px 95px;
+    text-align: center;
+    /*text-decoration: none;*/
+    display: block;
+    font-size: 16px;
+    margin: 30px;
+    cursor: pointer;
+}
