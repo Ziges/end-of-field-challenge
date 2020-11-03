@@ -5,8 +5,8 @@ In this exercise we build two full integrations with plain vanilla CSS, i.e. no 
 As often with CSS, this is an exercise in precision and accuracy.
 ***
 ## Deployment-Details:
-- Interface # 1. The first interface is a widget for retrieving user input. Compatible on all screen sizes.
-- Interface # 2. The second interface is a widget for a company enterprise package. Compatible on all screen sizes.
+- Interface # 1 (simple). The first interface is a widget for retrieving user input. Compatible on all screen sizes.
+- Interface # 2 (complex). The second interface is a widget for a company enterprise package. Compatible on all screen sizes.
 ***
 ## Tech tools:
 Built with: 
