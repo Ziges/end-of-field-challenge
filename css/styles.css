@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #044C51;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 570px;
+    height: 333px;
+}
+
+.content {
+    margin: 10px;
+    padding: 1px 10px 10px;
+}
+
+h1 {
+    margin: 10px auto;
+    font-family: 'Crimson Text', serif;
+    font-size: 45px;
+}
+
+form {
+    padding-top: 40px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+input {
+    width: 100%;
+    display: block;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#email {
+    width: 499px;
+    border: 2px solid lightgrey;
+    margin-top: 5px;
+}
+
+#reset {
+    background-color: #044C51;
+    border: none;
+}
+
+
+
