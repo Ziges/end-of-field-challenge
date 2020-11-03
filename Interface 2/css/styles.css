@@ -1,0 +1,56 @@
+/*border color #E5E5E5*/
+
+/*blue text color #28B299*/
+
+/*button color #F77D48*/
+
+/*per user color #6E6E6E*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#mockup {
+    width: 404px;
+    height: 613px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-verou-1-26/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.03.png?token=APAGWATRXRWHXFZXX5LGJ2C7VKC4C);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.5;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.widget {
+    /* width: calc(332px - 24px - 24px - 6px - 6px); */
+    width: calc(404px - 8px - 8px);
+    height: calc(613px - 8px - 8px);
+    margin: 8px;
+    /*border: 8px solid lightgrey;*/
+    background-color: #568DE9;
+    padding: 24px;
+    border-radius:25px;
+        /*color: black;*/
+}
+
+.widget h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
