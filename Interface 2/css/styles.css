@@ -44,8 +44,8 @@ body {
     /*border: 8px solid lightgrey;*/
     background-color: #568DE9;
     padding: 24px;
-    border-radius:25px;
-        /*color: black;*/
+    border-radius: 25px;
+    /*color: black;*/
 }
 
 header {
@@ -53,7 +53,7 @@ header {
     /*width:100%;*/
     text-align: center;
     margin: -5px -15px;
-    padding-bottom:7px;
+    padding-bottom: 7px;
 }
 
 
@@ -74,12 +74,18 @@ header h2 {
     margin: -5px -15px;
 }
 
+.table-content {
+    padding-top: 15px;
+    padding-bottom: 11px;
+    margin: -15px -15px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-td{
+td {
     padding: 23px 1px;
     border-collapse: collapse;
     border-bottom: 1px solid lightgrey;
@@ -102,5 +108,30 @@ td{
     padding-left: 10px;
 }
 
+.list-content {
+    padding-top: 10px;
+}
 
+ul {
+    padding-left: 45px;
+    margin-top: 5px;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ul { list-style: none; } /* Remove default bullets */
+
+li::before {
+    content: "\2713";
+    margin-right: 10px; /* Optional tweak */
+}
+
+#firstli::before {
+    content: "\261E";
+    margin-right: 10px; /* Optional tweak */
+}
 
